@@ -24,7 +24,7 @@ backend = { package = "system76-keyboard-configurator-backend", path = "../backe
 # Translation support
 i18n-embed = { version = "0.12.0", features = ["fluent-system", "desktop-requester"] }
 i18n-embed-fl = "0.5.0"
-rust-embed = { version = "5.9.0", features = ["debug-embed"] }
+rust-embed = { version = "6.3.0", features = ["debug-embed"] }
 
 [build-dependencies]
 gio = { git = "https://github.com/pop-os/gtk-rs" }
